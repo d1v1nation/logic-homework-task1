@@ -7,7 +7,6 @@ import qualified Data.Map.Strict as Map
 import Control.Applicative
 import Control.Monad.Identity (Identity)
 import Data.Maybe
-import Data.Hashable
 
 
 data Token = Not | Arrow | And | Or deriving (Show, Eq, Ord)
