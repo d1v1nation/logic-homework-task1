@@ -1,9 +1,9 @@
 # Mathlogic Homework, Task 1 : Proof correctness checker
 
-## Build
-`cabal install` should do it
+## Building
+`cabal build` should do it
 
-Alternatively, `ghc Main.hs -O2`
+Alternatively, `ghc Main.hs -O2` - see Build dependencies for details
 
 ### Build dependencies
 `base >=4.8 && <4.9`
